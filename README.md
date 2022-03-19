@@ -117,6 +117,9 @@ I'm writing as if this is a lot - it's not, it really isn't. For a reference, a 
 
 Anyway, this code (and git) have been put into **[CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)**, so if you want to fork this and _try_ and make a smaller version, go right ahead. Thinking about it, I am really unsure if it is even possible to copyright the code for this game as I feel like it would be ineligible for copyright and therefore in the public domain, because it consists entirely of information that is common property and contains no original authorship due to how simple it is (I am not offering legal advice). Despite this, it's officially CC0, much like this README.
 
+# More Thanks
+Thank you to Hosma of [hosma.neocities.org](https://hosma.neocities.org) for adding his own code.
+
 # End Thoughts
 
 This was fun to make, especially as I was being helped by a friend of mine (thank you, again). I want to play around with making small programs again. If you like this sort of thing, check out [r/TinyCode](https://old.reddit.com/r/tinycode), a subreddit for nerds that has even more examples of people making projects that use up very little code.
