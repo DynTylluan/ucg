@@ -1,7 +1,7 @@
 @ECHO OFF
 :0
 CLS
-ECHO You are dying. 1 = live, 2 = die
+ECHO You are dying. 1=live, 2=die
 set /p w=""
 if %w% == 1 goto 1
 goto 2
