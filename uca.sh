@@ -1,6 +1,11 @@
-#!/usr/bin/python
-p=print
-p('You are dying. 1 = live, 2 = die')
-x=input()
-m="You won" if x=="1" else "You died"
-p(m)
+#!/bin/sh
+echo 'You are dying. 1 = live, 2 = die'
+read PROMPT
+if [$PROMPT == "1"]:
+then
+  echo "You won"
+  exit 1
+else:
+  echo "You died"
+  exit 2
+fi
