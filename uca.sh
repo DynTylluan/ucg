@@ -5,7 +5,7 @@ if [$PROMPT == "1"]:
 then
   echo "You won"
   exit 1
-else:
+else
   echo "You died"
   exit 2
 fi
