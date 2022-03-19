@@ -19,11 +19,14 @@ It is possible to die in this game, and in fact, when we were writing this, we w
 
 If you open up the game now and read the text, it will tell you that if you press `1`, then you will live, `2` will kill you, while the first part is true, the second is a lie, we lied to you! You were duped! Hahaha!
 
-Okay, so this is what the code looks like. The shell script version, as written by a:
+Okay, so this is what the code looks like. The Python shell script version, as written by a:
 ```
-p('You are dying. 1 = live, 2 = die')
+#!/usr/bin/python
+p=print
+p('type 1 to win, 2 to die')
 x=input()
-m="You won" if x=="1" else "You died"
+m="win" if x=="1" else "ded"
+p(m)
 ```
 
 The Batch file version, as written by Cass:
