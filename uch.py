@@ -1,1 +1,0 @@
-print("1=live 2=die");print("You",input()=="1"and"won"or"died")
