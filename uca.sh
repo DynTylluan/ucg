@@ -1,5 +1,5 @@
 #!/bin/sh
-echo 'You are dying. 1 = live, 2 = die'
+echo 'You are dying. 1=live'
 read PROMPT
 if [$PROMPT == "1"]:
 then
