@@ -1,0 +1,1 @@
+using System;class Program{static void Main(){Console.WriteLine("You are dying. 1=live");string input = Console.ReadLine();string result = input == "1" ? "You won" : "You died";Console.WriteLine(result);}}
