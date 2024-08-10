@@ -1,5 +1,5 @@
 all:
-	gcc ugc.c -o ucg
+	gcc ucg.c -o ucg
 
 run: all
 	./ucg
